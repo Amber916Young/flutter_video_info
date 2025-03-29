@@ -1,21 +1,21 @@
-group 'com.amber916young.flutter_video_info'
+group 'com.example.flutter_video_info'
 version '1.0'
 
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.android.tools.build:gradle:8.8.0'
     }
 }
 
 rootProject.allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 }
 
@@ -24,12 +24,12 @@ apply plugin: 'com.android.library'
 android {
     // Conditional for compatibility with AGP <4.2.
     if (project.android.hasProperty("namespace")) {
-        namespace 'com.amber916young.flutter_video_info'
+        namespace 'com.example.flutter_video_info'
     }
-    compileSdkVersion 33
+    compileSdk 35
 
     defaultConfig {
-        minSdkVersion 16
+        minSdk 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
