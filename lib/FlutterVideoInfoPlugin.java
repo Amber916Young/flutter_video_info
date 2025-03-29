@@ -37,10 +37,6 @@ public class FlutterVideoInfoPlugin implements FlutterPlugin, MethodCallHandler 
         context = flutterPluginBinding.getApplicationContext();
     }
 
-    public static void registerWith(Registrar registrar_) {
-        final MethodChannel channel = new MethodChannel(registrar_.messenger(), "flutter_video_info");
-        channel.setMethodCallHandler(new FlutterVideoInfoPlugin());
-    }
 
     @Override
     public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
