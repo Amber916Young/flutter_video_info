@@ -1,4 +1,4 @@
-package com.example.flutter_video_info;
+package com.amber916young.flutter_video_info;
 
 import android.content.Context;
 import android.media.MediaMetadataRetriever;

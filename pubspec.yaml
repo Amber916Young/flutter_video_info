@@ -28,7 +28,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.flutter_video_info
+        package: com.amber916young.flutter_video_info
         pluginClass: FlutterVideoInfoPlugin
       ios:
         pluginClass: FlutterVideoInfoPlugin

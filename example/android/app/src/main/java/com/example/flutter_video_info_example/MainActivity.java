@@ -1,4 +1,4 @@
-package com.example.flutter_video_info_example;
+package com.amber916young.flutter_video_info_example;
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity;

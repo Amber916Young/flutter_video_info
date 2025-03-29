@@ -1,4 +1,4 @@
-group 'com.example.flutter_video_info'
+group 'com.amber916young.flutter_video_info'
 version '1.0'
 
 buildscript {
@@ -24,7 +24,7 @@ apply plugin: 'com.android.library'
 android {
     // Conditional for compatibility with AGP <4.2.
     if (project.android.hasProperty("namespace")) {
-        namespace 'com.example.flutter_video_info'
+        namespace 'com.amber916young.flutter_video_info'
     }
     compileSdkVersion 33
 
